@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 IntentIntegrator integrator = new IntentIntegrator(activity);
                 integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES);
-                integrator.setPrompt("Developed By Prajakta Patil");
+                integrator.setPrompt("Developed By Swapnil Pawar");
                 integrator.setBeepEnabled(false);
                 integrator.setCameraId(0);
                 integrator.setBarcodeImageEnabled(false);
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             try{
 
                 //Enter script URL Here
-                URL url = new URL("https://script.google.com/macros/s/AKfycbzf1VYRmhs08rl398byTZZRnTTQXERJbJ4qRrddgZ6cBA9dK1s/exec");
+                URL url = new URL("pass the Script URL Here That linked to google sheet. ");
 
                 JSONObject postDataParams = new JSONObject();
 
